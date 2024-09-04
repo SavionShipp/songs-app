@@ -7,3 +7,11 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+song = Song.new(
+  name: "Always",
+  artist: "Daniel Casaer",
+  year: 2023,
+  rating: 10
+)
+song.save
